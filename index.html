@@ -52,6 +52,40 @@
   </head>
   <body>
 
+    <!-- Navbar -->
+    <nav
+      class="flex flex-col md:flex-row items-center justify-between  px-4 md:px-[60px] py-6 font-[Inter]"
+    >
+      <!-- navbar left side -->
+      <div class="flex items-center gap-2.5">
+        <img src="./assets/logo.png" class="w-12" alt="" />
+        <h1 class="font-extrabold text-2xl text-[#006747]">
+          Emergency <br />
+          Service
+        </h1>
+      </div>
+
+      <!-- navbar right side -->
+      <div class="flex items-center gap-5">
+        <div
+          class="flex items-center py-3 px-5 gap-2.5 bg-[#41FF6B10] rounded-full"
+        >
+          <span id="heart-cnt" class="font-black">0</span>
+          <img src="./assets/heart.png" class="w-[30px]" alt="" />
+        </div>
+        <div
+          class="flex items-center py-3 px-5 gap-2.5 bg-[#41FF6B10] rounded-full"
+        >
+          <span id="coin-number" class="font-black">100</span>
+          <img src="./assets/coin.png" class="w-[30px]" alt="" />
+        </div>
+        <button 
+          class="bg-[#00A63E] text-white px-9 py-3 rounded-full font-semibold"
+        >
+          <span id="copy-cnt-btn">0</span> Copy
+        </button>
+      </div>
+    </nav>
    
     <script src="./script.js"></script>
   </body>
