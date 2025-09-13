@@ -8,3 +8,21 @@ for (const hrt of hearts) {
     heartCount.innerText = heartCountNumber + 1;
   });
 }
+
+// copy button 
+const copyButton = document.querySelectorAll('.copy-btn');
+for(const copyBtn of copyButton){
+  copyBtn.addEventListener('click',function(e){
+    const cardContainer = e.target.closest('.card');
+    const number = cardContainer.querySelector('.phn-number').innerText;
+
+    navigator.clipboard.writeText(number)
+    alert(`Number Copied: ${number}`)
+
+    const copyCntBtn = document.getElementById('copy-cnt-btn');
+    const copyCntBtnNumber = parseInt(copyCntBtn.innerText);
+
+    copyCntBtn.innerText = copyCntBtnNumber+1;
+  })
+  
+}
