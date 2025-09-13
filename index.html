@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emergency-Hotline</title>
-    <link rel="shortcut icon" href="./assets/logo-dark.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./assets/logo-dark.png"
+      type="image/x-icon"
+    />
 
     <!-- daisy ui cdn -->
     <link
@@ -51,10 +55,9 @@
     />
   </head>
   <body>
-
     <!-- Navbar -->
     <nav
-      class="flex flex-col md:flex-row items-center justify-between  px-4 md:px-[60px] py-6 font-[Inter]"
+      class="flex flex-col md:flex-row items-center justify-between px-4 md:px-[60px] py-6 font-[Inter]"
     >
       <!-- navbar left side -->
       <div class="flex items-center gap-2.5">
@@ -79,14 +82,30 @@
           <span id="coin-number" class="font-black">100</span>
           <img src="./assets/coin.png" class="w-[30px]" alt="" />
         </div>
-        <button 
+        <button
           class="bg-[#00A63E] text-white px-9 py-3 rounded-full font-semibold"
         >
           <span id="copy-cnt-btn">0</span> Copy
         </button>
       </div>
     </nav>
-   
+
+    
+    <!-- Hero Section -->
+    <section
+      class="flex flex-col items-center bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] py-3 px-[60px] gap-3"
+      style="font-family: 'Hind Madurai', sans-serif"
+    >
+      <img src="./assets/logo-dark.png" class="w-[92px]" alt="" />
+      <h1 class="text-white font-bold text-[40px]">
+        Emergency Service Directory
+      </h1>
+      <p class="text-white font-semibold text-xl">
+        Government Emergency Services at Your Fingertip – A Project by
+        Government of the People’s Republic of Bangladesh
+      </p>
+    </section>
+
     <script src="./script.js"></script>
   </body>
 </html>
