@@ -74,3 +74,7 @@ for (const btn of callButton) {
   });
 }
 
+// history-clear
+document.getElementById("history-clear").addEventListener("click", function () {
+  historyDiv.innerText = "";
+});
