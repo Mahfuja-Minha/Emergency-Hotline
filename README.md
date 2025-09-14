@@ -41,7 +41,7 @@
 | `preventDefault()`   | Stops the browser’s **default action** (e.g., preventing form submit or link navigation). |
 | `stopPropagation()`  | Stops the event from **bubbling up** to parent elements.                |
 
----
+
 
 
 
