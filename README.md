@@ -43,4 +43,44 @@
 
 ---
 
-✨ These are some commonly asked JavaScript questions with simple answers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
